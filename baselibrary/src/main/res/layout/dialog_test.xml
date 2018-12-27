@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/tv_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="标题"
+    android:textSize="30dp"
+    android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是弹窗的内容，吧啦吧啦吧啦,dddddddffv"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/tv_title"/>
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
